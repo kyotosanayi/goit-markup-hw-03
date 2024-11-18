@@ -175,7 +175,6 @@ body {
   line-height: 40px;
   letter-spacing: 2%;
   text-align: center;
-  visibility: hidden;
   display: none;
 }
 
@@ -190,7 +189,7 @@ body {
 }
 
 .section-two-list {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .section-two-text {
@@ -230,7 +229,7 @@ body {
 }
 
 .section-three-list {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -268,6 +267,10 @@ body {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+}
+
+.section-four-list {
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .section-four-title {
