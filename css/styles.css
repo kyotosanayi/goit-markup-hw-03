@@ -29,7 +29,7 @@ body {
   display: flex;
 }
 
-.logo {
+.logo-up {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -168,13 +168,14 @@ body {
   list-style-type: none;
 }
 
-.section-two-title {
+.visually-hidden {
   color: #2e2f42;
   font-family: inherit;
   font-size: 36px;
   line-height: 40px;
   letter-spacing: 2%;
   text-align: center;
+  visibility: hidden;
 }
 
 .section-two-mini-title {
@@ -185,6 +186,10 @@ body {
   line-height: 24px;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
+}
+
+.section-two-list {
+  width: calc((100% - 72px)) / 4;
 }
 
 .section-two-text {
@@ -198,6 +203,7 @@ body {
 
 .section-three {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 
 .section-three-list {
@@ -212,6 +218,19 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
+  margin-bottom: 72px;
+}
+
+.section-three-ul {
+  display: flex;
+  gap: 24px;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+
+.section-three-list {
+  width: calc((100% - 72px)) / 4;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .section-three-mini-title {
@@ -221,6 +240,12 @@ body {
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 0.02em;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.name-position {
+  padding: 32px 0;
 }
 
 .section-three-mini-text {
@@ -229,6 +254,18 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.section-four {
+  padding: 120px 0;
+}
+
+.section-four-ul {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
 .section-four-title {
@@ -238,6 +275,14 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
+  margin-bottom: 72px;
+}
+
+.app-div {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
 }
 
 .section-four-mini-title {
@@ -255,8 +300,13 @@ body {
 
 .footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 
+.logo-down {
+  display: inline-block;
+  margin-bottom: 16px;
+}
 .footer-text {
   color: #f4f4fd;
   line-height: 1.5;
