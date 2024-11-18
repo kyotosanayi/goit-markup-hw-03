@@ -228,6 +228,7 @@ body {
   gap: 24px;
   list-style-type: none;
   flex-wrap: wrap;
+  width: calc((100% - 72px) / 4);
 }
 
 .section-three-list {
