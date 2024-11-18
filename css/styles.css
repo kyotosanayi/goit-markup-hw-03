@@ -176,6 +176,7 @@ body {
   letter-spacing: 2%;
   text-align: center;
   visibility: hidden;
+  display: none;
 }
 
 .section-two-mini-title {
@@ -189,7 +190,7 @@ body {
 }
 
 .section-two-list {
-  width: calc((100% - 72px)) / 4;
+  width: calc((100% - 72px) / 4);
 }
 
 .section-two-text {
@@ -229,7 +230,7 @@ body {
 }
 
 .section-three-list {
-  width: calc((100% - 72px)) / 4;
+  width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -246,6 +247,7 @@ body {
 
 .name-position {
   padding: 32px 0;
+  margin-bottom: 8px;
 }
 
 .section-three-mini-text {
