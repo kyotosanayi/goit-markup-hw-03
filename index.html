@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WebStudio Main Page</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.css"
@@ -24,33 +23,37 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
+    <title>WebStudio Main Page</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
   </head>
   <body>
     <header class="header">
-      <div class="container">
+      <div class="header-div container">
         <nav class="header-nav">
-          <a class="logo-up" href="./index.html"
+          <a class="logo" href="./index.html"
             >Web<span class="logo-up-right">Studio</span></a
           >
           <ul class="nav-bar">
-            <li class="nav-list">
-              <a href="./index.html" class="nav-bar" id="nav-bar-one">Studio</a>
+            <li class="list">
+              <a href="./index.html" class="link">Studio</a>
             </li>
-            <li class="nav-list"><a href="" class="nav-bar">Portfolio</a></li>
-            <li class="nav-list"><a href="" class="nav-bar">Contacts</a></li>
+            <li class="list">
+              <a href="" class="link">Portfolio</a>
+            </li>
+            <li class="list">
+              <a href="" class="link">Contacts</a>
+            </li>
           </ul>
         </nav>
-        <address class="adress-bar">
+        <address class="adress">
           <ul class="adress-bar">
-            <li class="adress-list">
-              <a href="mailto:info@devstudio.com" class="adress-bar"
+            <li class="list">
+              <a href="mailto:info@devstudio.com" class="link"
                 >info@devstudio.com</a
               >
             </li>
-            <li class="adress-list">
-              <a href="tel:+110001111111" class="adress-bar"
-                >+11 (000) 111-11-11</a
-              >
+            <li class="list">
+              <a href="tel:+110001111111" class="link">+11 (000) 111-11-11</a>
             </li>
           </ul>
         </address>
@@ -59,7 +62,7 @@
 
     <main>
       <section class="section-one">
-        <div class="container">
+        <div class="section-one-container">
           <h1 class="section-one-title">
             Effective Solutions for Your Business
           </h1>
@@ -69,8 +72,8 @@
         </div>
       </section>
       <section class="section-two">
-        <div class="container">
-          <h2 class="visually-hidden">About Us</h2>
+        <div class="section-two-container">
+          <h2 class="visually-hidden section-two-title">About Us</h2>
           <ul class="section-two-ul">
             <li class="section-two-list">
               <h3 class="section-two-mini-title">Strategy</h3>
@@ -214,7 +217,7 @@
     </main>
     <footer class="footer">
       <div class="container">
-        <a href="./index.html" class="logo-down"
+        <a href="./index.html" class="logo" id="logo-down"
           >Web<span class="logo-down-right">Studio</span></a
         >
         <p class="footer-text">
